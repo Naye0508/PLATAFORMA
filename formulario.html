@@ -1,10 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Formulario HTML</title>
 </head>
 <body>
+    <h1>FORMULARIO DEBER</h1>
 
-</body>
+    <form action="procesar_formulario.php" method="POST">
+       <label for="cedula">Cedula:</label>
+        <input type="text" id="cedula" name="cedula" required><br><br>
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required><br><br>
+
+        <label >Sexo :</label><br>
+        <input type="radio" name="sexo" >Femenino<br>
+        <input type="radio" name="sexo" >Masculino<br>
+
+        <label >Nivel de estudios :</label><br>
+        <input type="radio" name="Nivel de estudios" >Basico<br>
+        <input type="radio" name="Nivel de estudios" >Bachillerato<br>
+        <input type="radio" name="Nivel de estudios" >Superior<br>
+
+
+
+<input type="submit" value="Enviar">
+
 </html>
